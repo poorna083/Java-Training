@@ -1,8 +1,8 @@
 // Reversing the array
-package Day11;
+package Day10;
 import java.util.*;
 
-public class Demo {
+public class Demo9 {
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
        int size = sc.nextInt();  
