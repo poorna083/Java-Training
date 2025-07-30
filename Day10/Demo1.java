@@ -10,7 +10,7 @@ public class Demo1 {
         for(int i=0;i<size;i++){
             arr_name[i] = sc.nextInt();
         }
-        for(int i=0;i>size;i++){
+        for(int i=0;i<size;i++){
             System.out.println(arr_name[i]+" ");
         }
 
