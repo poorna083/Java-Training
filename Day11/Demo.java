@@ -20,7 +20,7 @@ public class Demo {
     }
     int new_element = sc.nextInt();
     new_array[size]= new_element;
-    for(int i=0;i<=new_array.length;i++){
+    for(int i=0;i<=size+1;i++){
         System.out.println(new_array[i]);
     }
    }
