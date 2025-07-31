@@ -1,3 +1,4 @@
+//inserting the new element at an array at any position
 package Day11;
 import java.util.*;
 public class Demo1 {
@@ -22,7 +23,7 @@ public class Demo1 {
             new_array[i+1]=array[i];
         }
         for(int i=0;i<=size+1;i++){
-            System.out.print(new_array[i]);
+            System.out.println(new_array[i]);
         }
     }
 }
