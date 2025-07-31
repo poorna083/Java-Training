@@ -12,6 +12,9 @@ public class Demo2 {
         int [] new_array = new int[size-1];
         int pos = sc.nextInt();
         System.out.println("pos:");
+        if(pos<0 || pos>size){
+            System.out.println("Invalid");
+            }
         for(int i=0;i<size;i++){
         if(1+i<size){
             if(i>=pos){
