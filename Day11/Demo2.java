@@ -1,3 +1,5 @@
+//Deleting the element at any
+
 package Day11;
 import java.util.*;
 public class Demo2 {
