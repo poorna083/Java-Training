@@ -1,24 +1,14 @@
-import java.util.*;
-public class Demo1 
-{
-    public static void main(String[] args) 
-    {
-        int a = new Scanner(System.in).nextInt();
-        int count = 0;
-        if(a==0){
-            count=1;
+import java.*;
+import java.util.Scanner;
+public class Demo1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        char ch = 'P';
+        for(int i=0;i<a;i++){
+            for(int j=0;j<a;j++){
+                System.out.print(ch--+" ");
+            }System.out.println();
         }
-        else{
-            while(a!=0){
-            a = a/10;
-            count ++;
-            }
-            System.out.println(count);
-        }
-    
     }
-
-       
-
-    
 }

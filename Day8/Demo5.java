@@ -1,24 +1,17 @@
-import java.util.*;
+package Day10;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Demo5 {
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
-        int piece = sc.nextInt();
-        double time = sc.nextDouble();
-        int n =0;
-        System.out.println(piece);
-        switch (piece) {
-            case 1:
-                System.out.printf("%.2f",time);
-                break;
-            case 2:
-                    double a = time/2;
-                System.out.printf("%.2f",a);
-                break;
-            case 3:
-                System.out.println();
-            default:
-                System.out.println("out of raingeee");
-                break;
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        int[] array_name = new int[size];
+        for(int i=0;i<size;i++){
+            array_name[i] = sc.nextInt();
         }
+        Arrays.sort(array_name[]);
     }
+
 }

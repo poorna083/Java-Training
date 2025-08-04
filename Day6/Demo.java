@@ -1,20 +1,20 @@
-import java.io.*;
+import java.*;
 import java.util.Scanner;
 public class Demo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //int a = sc.nextInt();
-         long a = sc.nextLong();
-        a = Math.abs(a);
-        System.out.println(a);
-        int count=0;
-        while(a!=0){
-            a = a/10;
-            count++;
-            
-
-        }
-        System.out.println(count);
+        int a = sc.nextInt();
+        int c = 65;
+        for(int i = 0;i<=a;i++){
+            for(int j = 0;j<=a;j++){
+             System.out.print((char)c+" ");  
+             c++;
+            }System.out.println();
+        }    
     }
-
 }
+//logic 2;
+// char ch = 'e';
+//  for(int i = 0;i<=a;i++){
+//             for(int j = 0;j<=a;j++){
+//              System.out.print(ch++ +" "); 

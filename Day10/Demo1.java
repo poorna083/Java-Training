@@ -1,20 +1,14 @@
-
-package Day10;
+package Day12;
 import java.util.*;
-
 public class Demo1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int size = sc.nextInt();
-        int [] arr_name = new int [size];
-        for(int i=0;i<size;i++){
-            arr_name[i] = sc.nextInt();
-        }
-        for(int i=0;i<size;i++){
-            System.out.println(arr_name[i]+" ");
-        }
-
-        
+        System.out.println("Enter the string");
+        String a = sc.nextLine();
+        System.out.println("Enter the intiger");
+        int b = sc.nextInt();
+        System.out.println("ener the L (or) R");
+        char c = sc.next().charAt(0);
+        char[] array = new char[]
     }
-    
 }

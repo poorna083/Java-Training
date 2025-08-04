@@ -1,21 +1,21 @@
-import java.util.*;
+//min of elements in an array
+package Day10;
+import java.*;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Demo4 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        int n = s.length();
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                if(i==j){
-                    System.out.print(s.charAt(i));     //condition 2:
-                }                                       //if(i==j||i+j>=n-1)
-                else if(j==n-1-i){                  
-                    System.out.print(s.charAt(n-1-i));   //->(i)
-                }
-                else{
-                    System.out.print(" ");
-                }
-            }System.out.println();
-        }
+        int size = sc.nextInt();
+
+        int [] array_name =new int[size];
+    for(int i=0;i<size;i++){
+        array_name[i] = sc.nextInt(); 
+     }
+     Arrays.sort(array_name);
+     System.out.println(array_name[0]);   
     }
-}
+} 

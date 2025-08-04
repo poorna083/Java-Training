@@ -1,17 +1,19 @@
-import java.util.*;
+import java.*;
+import java.util.Scanner;
 public class Demo2 
 {
-    public static void main(String[] args) 
-    {
-        Scanner sc  = new Scanner(System.in);
-        long a = sc.nextLong();
-        a = Math.abs(a);
-        while (!(a%4==0 ||a%100==0 && a%400==0))
-        {
-           a++;
-        }
-        System.out.println(a);
-         
-        
-    }
+   public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    int n=sc.nextInt();
+		for(int i=0;i<n;i++)
+		{
+		    for(int j=0;j<n;j++)
+		    {
+		        char res=(char)('A'+n*j+i);
+		        System.out.print(res +" ");
+		    }
+		    System.out.println();
+		}
+		
+	}
 }

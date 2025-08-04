@@ -1,14 +1,20 @@
-import java.*;
-import java.util.Scanner;
+
+package Day10;
+import java.util.*;
+
 public class Demo1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        char ch = 'P';
-        for(int i=0;i<a;i++){
-            for(int j=0;j<a;j++){
-                System.out.print(ch--+" ");
-            }System.out.println();
+        int size = sc.nextInt();
+        int [] arr_name = new int [size];
+        for(int i=0;i<size;i++){
+            arr_name[i] = sc.nextInt();
         }
+        for(int i=0;i<size;i++){
+            System.out.println(arr_name[i]+" ");
+        }
+
+        
     }
+    
 }

@@ -1,37 +1,31 @@
-//Deleting the element at any
-
-package Day11;
-import java.util.*;
+//the insertion of an element in an array
+package Day13;
+import java.util.*;;
 public class Demo2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size:");
         int size = sc.nextInt();
-        int[] array = new int[size];
-        for(int i=0;i<size;i++)
-        {
+        System.out.println("enter the position");
+        int pos = sc.nextInt();
+        System.out.println("Enter the arrayy:");
+        int[]array = new int[size];
+        for(int i=0;i<array.length;i++){
             array[i]=sc.nextInt();
         }
-        int [] new_array = new int[size-1];
-        int pos = sc.nextInt();
-        System.out.println("pos:");
-        if(pos<0 || pos>size){
-            System.out.println("Invalid");
-            }
-        for(int i=0;i<size;i++){
-        if(1+i<size){
-            if(i>=pos){
-            new_array[i]=array[i+1];
-            }
-            else{
-                new_array[i]=array[i];
-            }
-
+            System.out.println("enter the value");
+            int value = sc.nextInt();
+        int new_array[]=new int[size+1];
+        for(int i=0;i<pos;i++){
+            new_array[i]=array[i];
         }
+        new_array[pos]=value;
+        for(int i=pos;i<array.length;i++){
+            new_array[i+1]=array[i];
         }
-        for(int i=0;i<size-1;i++){
-            System.out.println(new_array[i]);
+        for(int i=0;i<array.length+1;i++){
+        System.out.println(new_array[i]);
         }
-
-
+        
     }
 }
