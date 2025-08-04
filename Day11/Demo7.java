@@ -32,7 +32,7 @@ Output (stdout)
 Yes*/
 
 import java.util.*;
-public class Demo79 {
+public class Demo7 {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         System.out.println("row_value:");

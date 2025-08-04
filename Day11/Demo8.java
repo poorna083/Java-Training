@@ -60,7 +60,7 @@ Output (stdout)
 
 yes */
 import java.util.*;
-public class Demo89 {
+public class Demo8 {
     public static void main(String[] args) {
        Scanner sc =new Scanner(System.in);
         System.out.println("row_value:");
