@@ -1,6 +1,6 @@
 //transpose the matrix of an 2D array
 import java.util.*;
-public class Demo692 {
+public class Demo6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
