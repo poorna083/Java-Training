@@ -1,4 +1,4 @@
-package Day13.consoleproj1;
+package Day13;
 //arthmatic operations by using functions
 
 import java.util.*;
