@@ -1,0 +1,176 @@
+STEP1:
+*The bank Application project is an project that which is used to get the inputs from user.
+*firstly we have to welcome the user.
+*then we have to take the name,account number from user.
+*then we have to Acknowledge that we have created the account.
+
+STEP2:
+*After entering it,then we have to show the menu bar to the user.
+*after Showing the menu to the user.Then they have to choose the respective number of the menu bar.
+*after choosing the menu bar  like:
+Bank Application Project
+            1.Create account
+            2.Deposit money
+            3.Withdraw money
+            4.Check balance
+            5.Exit
+*This is how the menu bar is showcase and they have to in it.if they want to Deposit money.
+            Enter your choice: 2
+            Enter amount to deposit: 1000
+            Amount deposited successfully!
+*This is how the menu bar is showcase and they have to in it.if they want to Withdraw  money.
+            Enter your choice: 2
+            Enter amount to withdraw: 1500
+            Invalid amount or insufficient balance.
+*This is how the menu bar is showcase and they have to in it.if they want to check the Balance.
+            Enter your choice: 3
+            Current Balance: ₹1000.0
+*This is how the menu bar is showcase and they have to in it.if they want to exit.
+            Enter your choice: 4
+            Thank you for using the bank application.
+
+
+
+TESTCASE GIVEN:
+
+Bank Application Project
+
+ Features:- To repeate everytime
+Bank Application Project
+
+ Features:- To repeate everytime
+1.Create account
+2.Deposit money
+3.Withdraw money
+4.Check balance
+5.Exit
+
+test case -1
+
+Welcome to Simple Bank!
+Enter your name: Alice
+Enter account number: 12345
+Account created successfully!
+
+========= MENU =========
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 1
+Enter amount to deposit: 1000
+Amount deposited successfully!
+
+Enter your choice: 2
+Enter amount to withdraw: 500
+Amount withdrawn successfully!
+
+Enter your choice: 3
+Current Balance: ₹500.0
+
+
+Test case -2
+
+Welcome to Simple Bank!
+Enter your name: Ravi
+Enter account number: 2002
+Account created successfully!
+
+========= MENU =========
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 1
+Enter amount to deposit: 1000
+Amount deposited successfully!
+
+========= MENU =========
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 2
+Enter amount to withdraw: 1500
+Invalid amount or insufficient balance.
+
+========= MENU =========
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 3
+Current Balance: ₹1000.0
+
+========= MENU =========
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 4
+Thank you for using the bank application.
+
+test case -1
+
+Welcome to Simple Bank!
+Enter your name: Alice
+Enter account number: 12345
+Account created successfully!
+
+========= MENU =========
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 1
+Enter amount to deposit: 1000
+Amount deposited successfully!
+
+Enter your choice: 2
+Enter amount to withdraw: 500
+Amount withdrawn successfully!
+
+Enter your choice: 3
+Current Balance: ₹500.0
+
+
+Test case -2
+
+Welcome to Simple Bank!
+Enter your name: Ravi
+Enter account number: 2002
+Account created successfully!
+
+========= MENU =========
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 1
+Enter amount to deposit: 1000
+Amount deposited successfully!
+
+========= MENU =========
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 2
+Enter amount to withdraw: 1500
+Invalid amount or insufficient balance.
+
+========= MENU =========
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 3
+Current Balance: ₹1000.0
+
+========= MENU =========
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 4
+Thank you for using the bank application.
