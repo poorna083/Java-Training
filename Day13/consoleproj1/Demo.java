@@ -1,5 +1,6 @@
+package Day13.consoleproj1;
 //arthmatic operations by using functions
-package Day13;
+
 import java.util.*;
 public class Demo {
     public static int method1(int a,int b){

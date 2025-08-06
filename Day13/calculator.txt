@@ -1,0 +1,10 @@
+Title:Calculator
+the user requirments are the input is given by the use.
+they used to give the input from user and also the operation that which we have to dine.
+then the operation output should be print.
+if the user gives the data that which cannot be proceesed for this operation.Then it is given output as"Invalid data from user"
+input format:
+first value = ?;
+second value = ?;
+operator character = '?';
+operators of these project should be in : '+' '-' '*' '/' '%' '^'
