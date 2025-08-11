@@ -83,7 +83,7 @@ Rose Lotus Orchid Lily
 3*/
 package Day15;
 import java.util.*;
-public class Demo6 {
+public class Flower_Application {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter no of flowers");
