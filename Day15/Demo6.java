@@ -1,58 +1,86 @@
-/*import java.util.*;
-public class Ex66vector{
-    public static void main(String []args){
-        Vector<String>n=new Vector<>();
-        Scanner sc=new Scanner(System.in);
-        System.out.println("enter the number of initial flower");
-        int a=sc.nextInt();
-        System.out.println("flower names seperated by space");
-        for(int i=0;i<a;i++){
-            n.add(sc.next());
-        }System.out.println("number of operation");
-        int b=sc.nextInt();
-        System.out.println("operations in captial letter \n 1)ADD \n 2)INSERT\n 3)UPDATE \n 4)REMOVE \n 5)SEARCH \n 6)DISPLAY \n 7)COUNT \n8)RETRIVE");
-        for(int i=0;i<b;i++){
-            String c=sc.next();
-            switch(c) {
-                case "ADD":
-                    System.out.println("enter");
-                    n.add(sc.next());
-                    break;
-                case "INSERT":
-                    System.out.println("elemen name and postion");
-                    n.insertElementAt(sc.next(),sc.nextInt());
-                    break;
-                case "UPDATE":
-                    System.out.println("element postion and name");
-                    n.set(sc.nextInt(),sc.next());
-                    break;
-                case "REMOVE":
-                    System.out.println("enter");
-                    n.remove(sc.nextInt());
-                    break;
-                case "SEARCH":
-                    System.out.println("enter");
-                    if(n.contains(sc.next())){
-                        System.out.println("found");
-                    }else{
-                        System.out.println("not found");
-                    }
-                    break;
-                case "DISPLAY":
-                    System.out.println(n);
-                    break;
-                case "COUNT":
-                    n.size();
-                    break;
-                case "RETRIVE":
-                    n.get(sc.nextInt());
-                    break;
-                    
-            }
-        }
-        
-    }
-}*/
+/*USECASE
+In the bustling streets of Hyderabad, there was a famous flower market managed by Meera. She kept track of all her flowers — Roses, Jasmine, and Lotus — in a magical list called a Vector. One fine morning, she got a fresh stock of Lily and quickly added it to her inventory. Later, a customer requested that Lotus should appear right after Jasmine, so she inserted it at the correct spot. A florist came and told Meera that “Orchid” sounded more appealing than “Rose” for her bouquet, so she updated the name at the first position. By afternoon, a buyer asked for Jasmine, but since it had already been sold, Meera removed it from the Vector. Curious about her stock, she searched for “Lily” and happily found it still available. Before closing the shop, she displayed all her remaining flowers, counted them, and even checked which flower was at the second position. The Vector had helped Meera keep her market perfectly organized throughout the day.
+
+Input Format
+First line: An integer n — the number of initial flowers.
+Second line: n flower names separated by spaces.
+Third line: An integer q — the number of operations to perform.
+Next q lines: Each line contains an operation in one of the following formats:
+ADD flowerName
+INSERT index flowerName
+UPDATE index flowerName
+REMOVE flowerName
+SEARCH flowerName
+DISPLAY
+COUNT
+RETRIEVE index
+
+Output Format
+For SEARCH: Output "Found" or "Not Found".
+For DISPLAY: Print the flowers separated by spaces.
+For COUNT: Print the total number of flowers.
+For RETRIEVE: Print the flower at the given index.
+No output for ADD, INSERT, UPDATE, or REMOVE unless the operation affects a later query.
+
+Constraints
+1 ≤ n ≤ 20
+1 ≤ q ≤ 50
+Flower names are strings without spaces.
+Index values are 0-based.
+If index is invalid, ignore the operation.
+Removal of a non-existing flower has no effect.
+
+Test Cases
+Test Case 1
+Input
+3
+Rose Jasmine Lotus
+6
+ADD Lily
+INSERT 1 Orchid
+UPDATE 0 Tulip
+REMOVE Jasmine
+SEARCH Lily
+DISPLAY
+
+Output
+Found
+Tulip Orchid Lotus Lily
+
+Test Case 2
+Input
+4
+Rose Jasmine Lily Lotus
+5
+SEARCH Orchid
+ADD Orchid
+SEARCH Orchid
+COUNT
+DISPLAY
+
+Output
+Not Found
+Found
+5
+Rose Jasmine Lily Lotus Orchid
+
+Test Case 3
+Input
+2
+Rose Lotus
+7
+ADD Jasmine
+ADD Lily
+RETRIEVE 2
+UPDATE 2 Orchid
+DISPLAY
+REMOVE Rose
+COUNT
+
+Output
+Jasmine
+Rose Lotus Orchid Lily
+3*/
 package Day15;
 import java.util.*;
 public class Demo6 {
