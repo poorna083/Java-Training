@@ -7,10 +7,10 @@ public class Demo4 {
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
                 if(i==j){
-                    System.out.print(s.charAt(i));     //condition 2:
-                }                                       //if(i==j||i+j>=n-1)
+                    System.out.print(s.charAt(i));     
+                }                                     
                 else if(j==n-1-i){                  
-                    System.out.print(s.charAt(n-1-i));   //->(i)
+                    System.out.print(s.charAt(n-1-i)); 
                 }
                 else{
                     System.out.print(" ");
