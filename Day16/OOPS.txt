@@ -1,0 +1,35 @@
+OOPs is a methid of programming, that 
+
+
+
+
+
+
+
+
+
+
+
+
+*class is a blueprint for creating an object it creates attribute and behaviour.
+        vlass car{
+            .
+            .
+            .
+            .
+            void(or)int run(){
+            .
+            .
+            .
+            .return run;
+            }
+        }
+
+
+2 OBJECT:
+It is an instance of a class
+
+        car c = new car();
+
+3 ENCAPCULATION:
+    
