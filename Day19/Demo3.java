@@ -57,22 +57,32 @@ import java.util.*;
 public class Demo3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+         System.out.println("Enter the Student capacity:");
+        int n = sc.nextInt();
         System.out.println("Eneter the Lab1 Capacity:");
         int L1 = sc.nextInt();
         System.out.println("Eneter the Lab2 Capacity:");
         int L2 = sc.nextInt();
         System.out.println("Eneter the Lab3 Capacity:");
         int L3 = sc.nextInt();
-         System.out.println("Enter the Student capacity:");
-        int n = sc.nextInt();
         int [] arr = {L1,L2,L3};
-        for(int i=0;i<3;i++){
-            if(n<arr[i])
+        for(int j:arr)
+        {
+            if(n<j)
             {
-                if(arr[i]==arr[0]) System.out.println("L1");
-                else if(arr[i]==arr[1]) System.out.println("L2");
-                else if(arr[i]==arr[2])  System.out.println("L3");
+                if(j==arr[0]) System.out.println("L1");
+                else if(j==arr[1]) System.out.println("L2");
+                else if(j==arr[2])  System.out.println("L3");
             }
-        }
+            else{
+                if(n>j){
+                    Arrays.sort(arr);
+                    int Size = arr.length-1;
+                    System.out.println(j[Size]);
+
+                }
+            }
+
+        }   
     }
 }
