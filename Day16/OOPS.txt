@@ -55,3 +55,27 @@ It is an instance of a class
         c1.display();
     }
 }
+
+single inheritance:
+1 parent --> 1 child
+
+MultiLevel Inheritance:
+1 grandparent --> 1 child --> 1 grandchild
+
+
+Multiple Inheritance:
+
+
+interface and implements are the key words used in it.. 
+The interface we used to use instead of class.
+implements are the keyword used instead of extendss...   
+        the interface it doesn't hold the body..
+Default is an another kyword used in parent class
+
+
+Hierarchial Inheritence:
+ 1 parent -->many child 
+
+ Hybrid Inheritance:
+ many parent --> 1 child
+
