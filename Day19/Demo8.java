@@ -2,22 +2,22 @@ package Day19;
 import java.util.*;
 class Animal{
     void sound(){
-        System.out.println("Animal sound");
+        System.out.println("Animal sound🔉🔉");
     }
 }
 class Cat extends Animal{
     void sound(){
-        System.out.println("Meow Meow");
+        System.out.println("Meow Meow🐈");
     }
 }
 class Dog extends Animal{
     void sound(){
-        System.out.println("Dog Barks");
+        System.out.println("Dog Barks🐕");
     }
 }
 class Lion extends Animal{
     void sound(){
-        System.out.println("Lion Roars");
+        System.out.println("Lion Roars🦁");
     }
 }
 public class Demo8 {
@@ -41,7 +41,7 @@ public class Demo8 {
                 l = new Animal();
             }
             else{
-                System.out.println("Invalid Input");
+                System.out.println("Invalid Input ❌");
             }
             if(l!=null){
                 l.sound();
