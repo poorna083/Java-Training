@@ -47,13 +47,13 @@ import java.util.Scanner;
 
 class Restaurent{
     void CookFood(int a,int b){
-        System.out.println("Simple meal: "+(a+b));
+        System.out.println("Simple meal (2 items): "+(a+b));
     }
     void CookFood(int a,int b,int c){
-        System.out.println("Special Meal: "+(a+b+c));
+        System.out.println("Special Meal (3 items): "+(a+b+c));
     }
     void CookFood(double a,double b){
-        System.out.println("Juice Mix:" +(a+b));
+        System.out.println("Juice Mix (2 drinks): " +(a+b));
     }
     
 }

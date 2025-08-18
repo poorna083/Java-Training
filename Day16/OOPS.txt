@@ -105,4 +105,3 @@ Types of Polymorphism:
         A sub-Class Re-Defining a method already Present in the parent class.
         The method name,Return Type, Parameters Must be Same in both in parent and Child class.
         It helps in Achiving in Dynamic behaviour and Code Re-Usability.
-        
