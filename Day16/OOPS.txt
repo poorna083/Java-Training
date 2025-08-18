@@ -41,7 +41,7 @@ It is an instance of a class
         System.out.println("Brand :"+car);
         System.out.println("model:"+model);
 
-                        }
+                }
         }
 
         public class Demo1 {
