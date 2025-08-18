@@ -65,11 +65,11 @@ MultiLevel Inheritance:
 
 Multiple Inheritance:
 
-
+2 parents --> 1 Child
 interface and implements are the key words used in it.. 
 The interface we used to use instead of class.
 implements are the keyword used instead of extendss...   
-        the interface it doesn't hold the body..
+the interface it doesn't hold the body..
 Default is an another kyword used in parent class
 
 
@@ -77,5 +77,32 @@ Hierarchial Inheritence:
  1 parent -->many child 
 
  Hybrid Inheritance:
- many parent --> 1 child
+ combination of DIFFERNT types of inheritencee..
+ many parent --> 1 child        
 
+
+
+POLYMORPHISM:
+ in  java Polymorphism means many forms..
+        * it allows one interface to be used for a general class of action..
+        * The specific action is Detrmine wheather the excate nature of the situation.
+
+        POLYMORPHISM Definition::
+
+        *A single function operator (or) Object can behave Diffently in different situations..
+
+Types of Polymorphism:
+*Compile Time Polymorphism      (Method OverLoading or static Binding)
+*Run Time Polymorphism          (Method OverRiding or Dynamic Binding)
+
+*Method OverLoading:
+        Multiple methods with Same name, But different Parameter List.
+        The Return type may be Same or Different but Parameter must be Different.
+        It has to be done Between the Same  Class.
+        It helps in code readiblity and flexibility.
+
+*Method OverRiding:
+        A sub-Class Re-Defining a method already Present in the parent class.
+        The method name,Return Type, Parameters Must be Same in both in parent and Child class.
+        It helps in Achiving in Dynamic behaviour and Code Re-Usability.
+        
