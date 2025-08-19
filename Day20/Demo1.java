@@ -40,15 +40,9 @@ Employee Salary: 0.0 */
 package Day20;
 import java.util.*;
 class Employee{
-    private int EmployeeID;
+    int EmployeeID;
     private String Name;
     private Float Salary;
-    public int GetEmployeeID(){
-        return EmployeeID;
-    }
-    void SetEmployeeID(int EmployeeID){
-        this.EmployeeID = EmployeeID;
-    }
     public String GetName(){
         return Name;
     }
@@ -67,12 +61,11 @@ public class Demo1 {
    public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the Employee ID:");
-    int EmployeeID = sc.nextInt();
-    while (EmployeeID<0) {
+    int ID = sc.nextInt();
+    while (ID<0) {
         System.out.println("Enter the Valid Emoloyee ID:");
-        EmployeeID = sc.nextInt();
+        ID = sc.nextInt();
     }sc.nextLine();
-    sc.nextLine();
     System.out.println("Enter the name of The Employee:");
     String name = sc.nextLine();
     System.out.println("Enter The Salary:");
@@ -83,10 +76,9 @@ public class Demo1 {
         Salary = sc.nextFloat();
     }
         Employee e = new Employee();
-        e.SetEmployeeID(EmployeeID);
         e.SetName(name);
         e.SetSalary(Salary);
-        System.out.println("Employee ID:"+"  "+e.GetEmployeeID());
+        System.out.println("Employee ID:"+"  "+ID);
         System.out.println("Employee Name:"+"  "+e.GetName());
         System.out.println("Employee Salary:"+"  "+e.GetSalary());
    } 
