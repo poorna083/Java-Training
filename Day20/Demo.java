@@ -17,11 +17,21 @@ public int GetAge(){
 public void SetAge(int age){
     this.age = age;
 }
-public class Demo {
+public class Demo 
+{
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter name:");
+        String name = sc.nextLine();
+        System.out.println("Enter age:");
+        int age = sc.nextInt();
+        while(age <=0){
+           System.out.println("Invalid Input, Re enter positive Value"); 
+           age = sc.nextInt();
+        }
         Student s = new Student();
-        s.Setname("POORNA");
-        s.SetAge(20);
+        s.Setname(name);
+        s.SetAge(age);
         System.out.println(s.Getname()+"\n"+s.GetAge());
     }
 }
