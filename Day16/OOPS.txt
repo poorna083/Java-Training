@@ -105,3 +105,23 @@ Types of Polymorphism:
         A sub-Class Re-Defining a method already Present in the parent class.
         The method name,Return Type, Parameters Must be Same in both in parent and Child class.
         It helps in Achiving in Dynamic behaviour and Code Re-Usability.
+
+
+ENCAPCULATION::
+        Encapsulation means Binding Data.(Data means Variables and Methods) that operate on the Data into 
+        a single unit. 
+
+Definition of Encapsulation:
+        Hiding sensitive data from direct access and allowing Controlled access by using getters and Setters.
+ \
+
+Getter and Setter:
+        getters and Setters are the method are used to access and update private variables in a class.
+
+        Getter method:
+                Getter method is used to read or get the value of a private variable and it start with getname etc..
+        
+        Setters method:
+                *Setter method is used to set or update the value of a private variable.
+                *It Starts with Set.
+
