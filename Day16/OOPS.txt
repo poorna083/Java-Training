@@ -125,3 +125,24 @@ Getter and Setter:
                 *Setter method is used to set or update the value of a private variable.
                 *It Starts with Set.
 
+ABSTRACTION:
+        * Abstraction in java is The process of hiding the internal implementation details and showing only the essential
+          features of an object.
+        * Abstraction fococus on what an object does not how it is doing it.
+        * It is achived by using Abstract Classes and interfaces in java.
+        * It helps in reducing complexity and increases code re-Usability and Security.
+        * Abstract keyword is used to classes or methods.
+        * In abstract lass there Should be normal method or Abstract method but no body Should present.
+
+features                                   Abstraction                                                 Interface
+keyword()                                  abstract                                                    interface
+
+Method()                                  Abstraction has both Abstraction method and                   All methods are Abstract by default till 
+                                          concreate method.                                             version in java 8 from java 8 WE HAVE static
+                                                                                                        method Also.
+                                                                                                        
+variables()                              instance variable                                              only public,static,Final Constaints.                                                               
+                                          
+Inheritance()                           Only one Abstract Class(Single Inheritance)                      A Class can implement Multiple interface  (Multiple Inheritance)
+
+Access Modifiers()                      public, protected                                                public

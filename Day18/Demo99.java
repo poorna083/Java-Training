@@ -44,7 +44,7 @@ Not enough clues! Try Again! */
 
 import java.util.*;
 interface  GameTitle{
-    default void GameTitle(String GameTitle){
+    default void gmeTitle(String GameTitle){
         String a = GameTitle;
         System.out.println("Game Started...");
     }
