@@ -89,7 +89,7 @@ class HDFC extends Bank {
 
 }
 
-public class Demo3{
+public class Bank_problem{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the bank name(SBI or HDFC): ");
