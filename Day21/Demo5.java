@@ -1,6 +1,9 @@
 //Hybrid Interface 
 package Day21;
 import java.util.*;
+
+import Day22.Car;
+import Day22.Tesla;
 class Car{
     void car(){
         System.out.println("Car");
